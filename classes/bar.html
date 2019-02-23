@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Orderbook | dripjs</title>
+	<title>Bar | dripjs</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -54,10 +54,10 @@
 					<a href="../globals.html">Globals</a>
 				</li>
 				<li>
-					<a href="orderbook.html">Orderbook</a>
+					<a href="bar.html">Bar</a>
 				</li>
 			</ul>
-			<h1>Class Orderbook</h1>
+			<h1>Class Bar</h1>
 		</div>
 	</div>
 </header>
@@ -71,7 +71,7 @@
 						<a href="rest.html" class="tsd-signature-type">Rest</a>
 						<ul class="tsd-hierarchy">
 							<li>
-								<span class="target">Orderbook</span>
+								<span class="target">Bar</span>
 							</li>
 						</ul>
 					</li>
@@ -84,16 +84,25 @@
 						<section class="tsd-index-section ">
 							<h3>Constructors</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite"><a href="orderbook.html#constructor" class="tsd-kind-icon">constructor</a></li>
+								<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite"><a href="bar.html#constructor" class="tsd-kind-icon">constructor</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="bar.html#close" class="tsd-kind-icon">close</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="bar.html#high" class="tsd-kind-icon">high</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="bar.html#low" class="tsd-kind-icon">low</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="bar.html#open" class="tsd-kind-icon">open</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="bar.html#time" class="tsd-kind-icon">time</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="bar.html#volume" class="tsd-kind-icon">volume</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section ">
 							<h3>Methods</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-method tsd-parent-kind-class"><a href="orderbook.html#fetch" class="tsd-kind-icon">fetch</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class"><a href="orderbook.html#orderbookl2t25_" class="tsd-kind-icon">orderbook<wbr>L2T25$</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-protected"><a href="orderbook.html#request" class="tsd-kind-icon">request</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class"><a href="orderbook.html#stoporderbookl2t25" class="tsd-kind-icon">stop<wbr>Orderbook<wbr>L2T25</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="bar.html#fetch" class="tsd-kind-icon">fetch</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-protected"><a href="bar.html#request" class="tsd-kind-icon">request</a></li>
 							</ul>
 						</section>
 					</div>
@@ -105,25 +114,88 @@
 					<a name="constructor" class="tsd-anchor"></a>
 					<h3>constructor</h3>
 					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
-						<li class="tsd-signature tsd-kind-icon">new <wbr>Orderbook<span class="tsd-signature-symbol">(</span>ws<span class="tsd-signature-symbol">: </span><a href="websocket.html" class="tsd-signature-type">Websocket</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="orderbook.html" class="tsd-signature-type">Orderbook</a></li>
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Bar<span class="tsd-signature-symbol">(</span>config<span class="tsd-signature-symbol">: </span><a href="../interfaces/config.html" class="tsd-signature-type">Config</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="bar.html" class="tsd-signature-type">Bar</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Overrides <a href="rest.html">Rest</a>.<a href="rest.html#constructor">constructor</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/websocket/orderbook/orderbook.ts#L9">modules/exchanges/crypto/bitmex/websocket/orderbook/orderbook.ts:9</a></li>
+									<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/rest/bar/bar.ts#L7">modules/exchanges/crypto/bitmex/rest/bar/bar.ts:7</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>ws: <a href="websocket.html" class="tsd-signature-type">Websocket</a></h5>
+									<h5>config: <a href="../interfaces/config.html" class="tsd-signature-type">Config</a></h5>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="orderbook.html" class="tsd-signature-type">Orderbook</a></h4>
+							<h4 class="tsd-returns-title">Returns <a href="bar.html" class="tsd-signature-type">Bar</a></h4>
 						</li>
 					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="close" class="tsd-anchor"></a>
+					<h3>close</h3>
+					<div class="tsd-signature tsd-kind-icon">close<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/types/intelligence.ts#L24">modules/types/intelligence.ts:24</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="high" class="tsd-anchor"></a>
+					<h3>high</h3>
+					<div class="tsd-signature tsd-kind-icon">high<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/types/intelligence.ts#L22">modules/types/intelligence.ts:22</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="low" class="tsd-anchor"></a>
+					<h3>low</h3>
+					<div class="tsd-signature tsd-kind-icon">low<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/types/intelligence.ts#L23">modules/types/intelligence.ts:23</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="open" class="tsd-anchor"></a>
+					<h3>open</h3>
+					<div class="tsd-signature tsd-kind-icon">open<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/types/intelligence.ts#L21">modules/types/intelligence.ts:21</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="time" class="tsd-anchor"></a>
+					<h3>time</h3>
+					<div class="tsd-signature tsd-kind-icon">time<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/types/intelligence.ts#L20">modules/types/intelligence.ts:20</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="volume" class="tsd-anchor"></a>
+					<h3>volume</h3>
+					<div class="tsd-signature tsd-kind-icon">volume<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/types/intelligence.ts#L25">modules/types/intelligence.ts:25</a></li>
+						</ul>
+					</aside>
 				</section>
 			</section>
 			<section class="tsd-panel-group tsd-member-group ">
@@ -132,45 +204,22 @@
 					<a name="fetch" class="tsd-anchor"></a>
 					<h3>fetch</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon">fetch<span class="tsd-signature-symbol">(</span>request<span class="tsd-signature-symbol">: </span><a href="../interfaces/orderbookrequest.html" class="tsd-signature-type">OrderbookRequest</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/restorderbookl2response.html" class="tsd-signature-type">RestOrderbookL2Response</a><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">fetch<span class="tsd-signature-symbol">(</span>request<span class="tsd-signature-symbol">: </span><a href="../interfaces/bitmexrestbarrequest.html" class="tsd-signature-type">BitmexRestBarRequest</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/restbarresponse.html" class="tsd-signature-type">RestBarResponse</a><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/rest/orderbook/orderbook.ts#L14">modules/exchanges/crypto/bitmex/rest/orderbook/orderbook.ts:14</a></li>
+									<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/rest/bar/bar.ts#L13">modules/exchanges/crypto/bitmex/rest/bar/bar.ts:13</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>request: <a href="../interfaces/orderbookrequest.html" class="tsd-signature-type">OrderbookRequest</a></h5>
+									<h5>request: <a href="../interfaces/bitmexrestbarrequest.html" class="tsd-signature-type">BitmexRestBarRequest</a></h5>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/restorderbookl2response.html" class="tsd-signature-type">RestOrderbookL2Response</a><span class="tsd-signature-symbol">&gt;</span></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
-					<a name="orderbookl2t25_" class="tsd-anchor"></a>
-					<h3>orderbook<wbr>L2T25$</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon">orderbook<wbr>L2T25$<span class="tsd-signature-symbol">(</span>pair<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Observable</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/orderbookl2response.html" class="tsd-signature-type">OrderbookL2Response</a><span class="tsd-signature-symbol">&gt;</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/websocket/orderbook/orderbook.ts#L13">modules/exchanges/crypto/bitmex/websocket/orderbook/orderbook.ts:13</a></li>
-								</ul>
-							</aside>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5>pair: <span class="tsd-signature-type">string</span></h5>
-								</li>
-							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Observable</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/orderbookl2response.html" class="tsd-signature-type">OrderbookL2Response</a><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/restbarresponse.html" class="tsd-signature-type">RestBarResponse</a><span class="tsd-signature-symbol">&gt;</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -185,7 +234,7 @@
 							<aside class="tsd-sources">
 								<p>Overrides <a href="rest.html">Rest</a>.<a href="rest.html#request">request</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/rest/orderbook/orderbook.ts#L24">modules/exchanges/crypto/bitmex/rest/orderbook/orderbook.ts:24</a></li>
+									<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/rest/bar/bar.ts#L23">modules/exchanges/crypto/bitmex/rest/bar/bar.ts:23</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -198,29 +247,6 @@
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/restresponse.html" class="tsd-signature-type">RestResponse</a><span class="tsd-signature-symbol">&gt;</span></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
-					<a name="stoporderbookl2t25" class="tsd-anchor"></a>
-					<h3>stop<wbr>Orderbook<wbr>L2T25</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon">stop<wbr>Orderbook<wbr>L2T25<span class="tsd-signature-symbol">(</span>pair<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/websocket/orderbook/orderbook.ts#L23">modules/exchanges/crypto/bitmex/websocket/orderbook/orderbook.ts:23</a></li>
-								</ul>
-							</aside>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5>pair: <span class="tsd-signature-type">string</span></h5>
-								</li>
-							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -239,22 +265,34 @@
 				</ul>
 				<ul class="current">
 					<li class="current tsd-kind-class">
-						<a href="orderbook.html" class="tsd-kind-icon">Orderbook</a>
+						<a href="bar.html" class="tsd-kind-icon">Bar</a>
 						<ul>
 							<li class=" tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
-								<a href="orderbook.html#constructor" class="tsd-kind-icon">constructor</a>
+								<a href="bar.html#constructor" class="tsd-kind-icon">constructor</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="bar.html#close" class="tsd-kind-icon">close</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="bar.html#high" class="tsd-kind-icon">high</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="bar.html#low" class="tsd-kind-icon">low</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="bar.html#open" class="tsd-kind-icon">open</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="bar.html#time" class="tsd-kind-icon">time</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="bar.html#volume" class="tsd-kind-icon">volume</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class">
-								<a href="orderbook.html#fetch" class="tsd-kind-icon">fetch</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class">
-								<a href="orderbook.html#orderbookl2t25_" class="tsd-kind-icon">orderbook<wbr>L2T25$</a>
+								<a href="bar.html#fetch" class="tsd-kind-icon">fetch</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-protected">
-								<a href="orderbook.html#request" class="tsd-kind-icon">request</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class">
-								<a href="orderbook.html#stoporderbookl2t25" class="tsd-kind-icon">stop<wbr>Orderbook<wbr>L2T25</a>
+								<a href="bar.html#request" class="tsd-kind-icon">request</a>
 							</li>
 						</ul>
 					</li>

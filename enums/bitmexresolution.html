@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>OrderSide | dripjs</title>
+	<title>BitmexResolution | dripjs</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -54,10 +54,10 @@
 					<a href="../globals.html">Globals</a>
 				</li>
 				<li>
-					<a href="orderside.html">OrderSide</a>
+					<a href="bitmexresolution.html">BitmexResolution</a>
 				</li>
 			</ul>
-			<h1>Enumeration OrderSide</h1>
+			<h1>Enumeration BitmexResolution</h1>
 		</div>
 	</div>
 </header>
@@ -71,8 +71,10 @@
 						<section class="tsd-index-section ">
 							<h3>Enumeration members</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="orderside.html#buy" class="tsd-kind-icon">Buy</a></li>
-								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="orderside.html#sell" class="tsd-kind-icon">Sell</a></li>
+								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="bitmexresolution.html#day" class="tsd-kind-icon">day</a></li>
+								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="bitmexresolution.html#hour" class="tsd-kind-icon">hour</a></li>
+								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="bitmexresolution.html#min1" class="tsd-kind-icon">min1</a></li>
+								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="bitmexresolution.html#min5" class="tsd-kind-icon">min5</a></li>
 							</ul>
 						</section>
 					</div>
@@ -81,22 +83,42 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Enumeration members</h2>
 				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
-					<a name="buy" class="tsd-anchor"></a>
-					<h3>Buy</h3>
-					<div class="tsd-signature tsd-kind-icon">Buy<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> =&nbsp;&quot;buy&quot;</span></div>
+					<a name="day" class="tsd-anchor"></a>
+					<h3>day</h3>
+					<div class="tsd-signature tsd-kind-icon">day<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> =&nbsp;&quot;1d&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/types/order.ts#L10">modules/types/order.ts:10</a></li>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/types/request.ts#L44">modules/exchanges/crypto/bitmex/types/request.ts:44</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
-					<a name="sell" class="tsd-anchor"></a>
-					<h3>Sell</h3>
-					<div class="tsd-signature tsd-kind-icon">Sell<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> =&nbsp;&quot;sell&quot;</span></div>
+					<a name="hour" class="tsd-anchor"></a>
+					<h3>hour</h3>
+					<div class="tsd-signature tsd-kind-icon">hour<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> =&nbsp;&quot;1h&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/types/order.ts#L11">modules/types/order.ts:11</a></li>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/types/request.ts#L43">modules/exchanges/crypto/bitmex/types/request.ts:43</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+					<a name="min1" class="tsd-anchor"></a>
+					<h3>min1</h3>
+					<div class="tsd-signature tsd-kind-icon">min1<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> =&nbsp;&quot;1m&quot;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/types/request.ts#L41">modules/exchanges/crypto/bitmex/types/request.ts:41</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+					<a name="min5" class="tsd-anchor"></a>
+					<h3>min5</h3>
+					<div class="tsd-signature tsd-kind-icon">min5<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> =&nbsp;&quot;5m&quot;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/types/request.ts#L42">modules/exchanges/crypto/bitmex/types/request.ts:42</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -115,13 +137,19 @@
 				</ul>
 				<ul class="current">
 					<li class="current tsd-kind-enum">
-						<a href="orderside.html" class="tsd-kind-icon">Order<wbr>Side</a>
+						<a href="bitmexresolution.html" class="tsd-kind-icon">Bitmex<wbr>Resolution</a>
 						<ul>
 							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-								<a href="orderside.html#buy" class="tsd-kind-icon">Buy</a>
+								<a href="bitmexresolution.html#day" class="tsd-kind-icon">day</a>
 							</li>
 							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-								<a href="orderside.html#sell" class="tsd-kind-icon">Sell</a>
+								<a href="bitmexresolution.html#hour" class="tsd-kind-icon">hour</a>
+							</li>
+							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+								<a href="bitmexresolution.html#min1" class="tsd-kind-icon">min1</a>
+							</li>
+							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+								<a href="bitmexresolution.html#min5" class="tsd-kind-icon">min5</a>
 							</li>
 						</ul>
 					</li>

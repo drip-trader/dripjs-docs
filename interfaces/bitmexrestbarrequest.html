@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>OrderSide | dripjs</title>
+	<title>BitmexRestBarRequest | dripjs</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -54,49 +54,101 @@
 					<a href="../globals.html">Globals</a>
 				</li>
 				<li>
-					<a href="orderside.html">OrderSide</a>
+					<a href="bitmexrestbarrequest.html">BitmexRestBarRequest</a>
 				</li>
 			</ul>
-			<h1>Enumeration OrderSide</h1>
+			<h1>Interface BitmexRestBarRequest</h1>
 		</div>
 	</div>
 </header>
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">BitmexRestBarRequest</span>
+					</li>
+				</ul>
+			</section>
 			<section class="tsd-panel-group tsd-index-group">
 				<h2>Index</h2>
 				<section class="tsd-panel tsd-index-panel">
 					<div class="tsd-index-content">
 						<section class="tsd-index-section ">
-							<h3>Enumeration members</h3>
+							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="orderside.html#buy" class="tsd-kind-icon">Buy</a></li>
-								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="orderside.html#sell" class="tsd-kind-icon">Sell</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="bitmexrestbarrequest.html#binsize" class="tsd-kind-icon">bin<wbr>Size</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="bitmexrestbarrequest.html#count" class="tsd-kind-icon">count</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="bitmexrestbarrequest.html#endtime" class="tsd-kind-icon">end<wbr>Time</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="bitmexrestbarrequest.html#reverse" class="tsd-kind-icon">reverse</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="bitmexrestbarrequest.html#starttime" class="tsd-kind-icon">start<wbr>Time</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="bitmexrestbarrequest.html#symbol" class="tsd-kind-icon">symbol</a></li>
 							</ul>
 						</section>
 					</div>
 				</section>
 			</section>
 			<section class="tsd-panel-group tsd-member-group ">
-				<h2>Enumeration members</h2>
-				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
-					<a name="buy" class="tsd-anchor"></a>
-					<h3>Buy</h3>
-					<div class="tsd-signature tsd-kind-icon">Buy<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> =&nbsp;&quot;buy&quot;</span></div>
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="binsize" class="tsd-anchor"></a>
+					<h3>bin<wbr>Size</h3>
+					<div class="tsd-signature tsd-kind-icon">bin<wbr>Size<span class="tsd-signature-symbol">:</span> <a href="../enums/bitmexresolution.html" class="tsd-signature-type">BitmexResolution</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/types/order.ts#L10">modules/types/order.ts:10</a></li>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/types/request.ts#L48">modules/exchanges/crypto/bitmex/types/request.ts:48</a></li>
 						</ul>
 					</aside>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
-					<a name="sell" class="tsd-anchor"></a>
-					<h3>Sell</h3>
-					<div class="tsd-signature tsd-kind-icon">Sell<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> =&nbsp;&quot;sell&quot;</span></div>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="count" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> count</h3>
+					<div class="tsd-signature tsd-kind-icon">count<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/types/order.ts#L11">modules/types/order.ts:11</a></li>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/types/request.ts#L50">modules/exchanges/crypto/bitmex/types/request.ts:50</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="endtime" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> end<wbr>Time</h3>
+					<div class="tsd-signature tsd-kind-icon">end<wbr>Time<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/types/request.ts#L53">modules/exchanges/crypto/bitmex/types/request.ts:53</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="reverse" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> reverse</h3>
+					<div class="tsd-signature tsd-kind-icon">reverse<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/types/request.ts#L51">modules/exchanges/crypto/bitmex/types/request.ts:51</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="starttime" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> start<wbr>Time</h3>
+					<div class="tsd-signature tsd-kind-icon">start<wbr>Time<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/types/request.ts#L52">modules/exchanges/crypto/bitmex/types/request.ts:52</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="symbol" class="tsd-anchor"></a>
+					<h3>symbol</h3>
+					<div class="tsd-signature tsd-kind-icon">symbol<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/types/request.ts#L49">modules/exchanges/crypto/bitmex/types/request.ts:49</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -114,14 +166,26 @@
 				<ul class="before-current">
 				</ul>
 				<ul class="current">
-					<li class="current tsd-kind-enum">
-						<a href="orderside.html" class="tsd-kind-icon">Order<wbr>Side</a>
+					<li class="current tsd-kind-interface">
+						<a href="bitmexrestbarrequest.html" class="tsd-kind-icon">Bitmex<wbr>Rest<wbr>Bar<wbr>Request</a>
 						<ul>
-							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-								<a href="orderside.html#buy" class="tsd-kind-icon">Buy</a>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="bitmexrestbarrequest.html#binsize" class="tsd-kind-icon">bin<wbr>Size</a>
 							</li>
-							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-								<a href="orderside.html#sell" class="tsd-kind-icon">Sell</a>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="bitmexrestbarrequest.html#count" class="tsd-kind-icon">count</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="bitmexrestbarrequest.html#endtime" class="tsd-kind-icon">end<wbr>Time</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="bitmexrestbarrequest.html#reverse" class="tsd-kind-icon">reverse</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="bitmexrestbarrequest.html#starttime" class="tsd-kind-icon">start<wbr>Time</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="bitmexrestbarrequest.html#symbol" class="tsd-kind-icon">symbol</a>
 							</li>
 						</ul>
 					</li>

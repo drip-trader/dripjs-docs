@@ -99,10 +99,16 @@
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="bitmexws.html#destroy" class="tsd-kind-icon">destroy</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite"><a href="bitmexws.html#order_" class="tsd-kind-icon">order$</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite"><a href="bitmexws.html#orderbook_" class="tsd-kind-icon">orderbook$</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="bitmexws.html#quote_" class="tsd-kind-icon">quote$</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="bitmexws.html#settlement_" class="tsd-kind-icon">settlement$</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite"><a href="bitmexws.html#stoporder" class="tsd-kind-icon">stop<wbr>Order</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite"><a href="bitmexws.html#stoporderbook" class="tsd-kind-icon">stop<wbr>Orderbook</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="bitmexws.html#stopquote" class="tsd-kind-icon">stop<wbr>Quote</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="bitmexws.html#stopsettlement" class="tsd-kind-icon">stop<wbr>Settlement</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite"><a href="bitmexws.html#stoptrade" class="tsd-kind-icon">stop<wbr>Trade</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="bitmexws.html#stoptradebin1d" class="tsd-kind-icon">stop<wbr>Trade<wbr>Bin1d</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite"><a href="bitmexws.html#trade_" class="tsd-kind-icon">trade$</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="bitmexws.html#tradebin1d_" class="tsd-kind-icon">trade<wbr>Bin1d$</a></li>
 							</ul>
 						</section>
 					</div>
@@ -121,7 +127,7 @@
 							<aside class="tsd-sources">
 								<p>Overrides BitmexWsBase.__constructor</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/a115967/modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts#L14">modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts:14</a></li>
+									<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts#L18">modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts:18</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -139,12 +145,12 @@
 				<h2>Properties</h2>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
 					<a name="config" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagProtected">Protected</span> config</h3>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> <span class="tsd-flag ts-flagOptional">Optional</span> config</h3>
 					<div class="tsd-signature tsd-kind-icon">config<span class="tsd-signature-symbol">:</span> <a href="../interfaces/config.html" class="tsd-signature-type">Config</a></div>
 					<aside class="tsd-sources">
 						<p>Inherited from BitmexWsBase.config</p>
 						<ul>
-							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/a115967/modules/exchanges/crypto/bitmex/websocket/bitmex-ws-base.ts#L6">modules/exchanges/crypto/bitmex/websocket/bitmex-ws-base.ts:6</a></li>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/websocket/bitmex-ws-base.ts#L6">modules/exchanges/crypto/bitmex/websocket/bitmex-ws-base.ts:6</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -161,7 +167,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/a115967/modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts#L52">modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts:52</a></li>
+									<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts#L85">modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts:85</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -179,7 +185,7 @@
 							<aside class="tsd-sources">
 								<p>Overrides BitmexWsBase.order$</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/a115967/modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts#L44">modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts:44</a></li>
+									<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts#L77">modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts:77</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -203,7 +209,7 @@
 							<aside class="tsd-sources">
 								<p>Overrides BitmexWsBase.orderbook$</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/a115967/modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts#L26">modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts:26</a></li>
+									<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts#L32">modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts:32</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -213,6 +219,52 @@
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Observable</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/orderbookl2response.html" class="tsd-signature-type">OrderbookL2Response</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="quote_" class="tsd-anchor"></a>
+					<h3>quote$</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">quote$<span class="tsd-signature-symbol">(</span>pair<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Observable</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/quoteresponse.html" class="tsd-signature-type">QuoteResponse</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts#L59">modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts:59</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>pair: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Observable</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/quoteresponse.html" class="tsd-signature-type">QuoteResponse</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="settlement_" class="tsd-anchor"></a>
+					<h3>settlement$</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">settlement$<span class="tsd-signature-symbol">(</span>pair<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Observable</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/settlementresponse.html" class="tsd-signature-type">SettlementResponse</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts#L68">modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts:68</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>pair: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Observable</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/settlementresponse.html" class="tsd-signature-type">SettlementResponse</a><span class="tsd-signature-symbol">&gt;</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -227,7 +279,7 @@
 							<aside class="tsd-sources">
 								<p>Overrides BitmexWsBase.stopOrder</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/a115967/modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts#L48">modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts:48</a></li>
+									<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts#L81">modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts:81</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -251,7 +303,53 @@
 							<aside class="tsd-sources">
 								<p>Overrides BitmexWsBase.stopOrderbook</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/a115967/modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts#L31">modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts:31</a></li>
+									<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts#L37">modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts:37</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>pair: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="stopquote" class="tsd-anchor"></a>
+					<h3>stop<wbr>Quote</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">stop<wbr>Quote<span class="tsd-signature-symbol">(</span>pair<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts#L64">modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts:64</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>pair: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="stopsettlement" class="tsd-anchor"></a>
+					<h3>stop<wbr>Settlement</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">stop<wbr>Settlement<span class="tsd-signature-symbol">(</span>pair<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts#L73">modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts:73</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -275,7 +373,30 @@
 							<aside class="tsd-sources">
 								<p>Overrides BitmexWsBase.stopTrade</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/a115967/modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts#L40">modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts:40</a></li>
+									<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts#L46">modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts:46</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>pair: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="stoptradebin1d" class="tsd-anchor"></a>
+					<h3>stop<wbr>Trade<wbr>Bin1d</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">stop<wbr>Trade<wbr>Bin1d<span class="tsd-signature-symbol">(</span>pair<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts#L55">modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts:55</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -299,7 +420,30 @@
 							<aside class="tsd-sources">
 								<p>Overrides BitmexWsBase.trade$</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/a115967/modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts#L35">modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts:35</a></li>
+									<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts#L41">modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts:41</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>pair: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Observable</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/traderesponse.html" class="tsd-signature-type">TradeResponse</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="tradebin1d_" class="tsd-anchor"></a>
+					<h3>trade<wbr>Bin1d$</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">trade<wbr>Bin1d$<span class="tsd-signature-symbol">(</span>pair<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Observable</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/traderesponse.html" class="tsd-signature-type">TradeResponse</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts#L50">modules/exchanges/crypto/bitmex/websocket/bitmex-ws.ts:50</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -344,17 +488,35 @@
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
 								<a href="bitmexws.html#orderbook_" class="tsd-kind-icon">orderbook$</a>
 							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="bitmexws.html#quote_" class="tsd-kind-icon">quote$</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="bitmexws.html#settlement_" class="tsd-kind-icon">settlement$</a>
+							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
 								<a href="bitmexws.html#stoporder" class="tsd-kind-icon">stop<wbr>Order</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
 								<a href="bitmexws.html#stoporderbook" class="tsd-kind-icon">stop<wbr>Orderbook</a>
 							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="bitmexws.html#stopquote" class="tsd-kind-icon">stop<wbr>Quote</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="bitmexws.html#stopsettlement" class="tsd-kind-icon">stop<wbr>Settlement</a>
+							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
 								<a href="bitmexws.html#stoptrade" class="tsd-kind-icon">stop<wbr>Trade</a>
 							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="bitmexws.html#stoptradebin1d" class="tsd-kind-icon">stop<wbr>Trade<wbr>Bin1d</a>
+							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
 								<a href="bitmexws.html#trade_" class="tsd-kind-icon">trade$</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="bitmexws.html#tradebin1d_" class="tsd-kind-icon">trade<wbr>Bin1d$</a>
 							</li>
 						</ul>
 					</li>

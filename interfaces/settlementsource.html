@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>FetchOrderRequest | dripjs</title>
+	<title>SettlementSource | dripjs</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -54,10 +54,10 @@
 					<a href="../globals.html">Globals</a>
 				</li>
 				<li>
-					<a href="fetchorderrequest.html">FetchOrderRequest</a>
+					<a href="settlementsource.html">SettlementSource</a>
 				</li>
 			</ul>
-			<h1>Interface FetchOrderRequest</h1>
+			<h1>Interface SettlementSource</h1>
 		</div>
 	</div>
 </header>
@@ -68,7 +68,7 @@
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
 					<li>
-						<span class="target">FetchOrderRequest</span>
+						<span class="target">SettlementSource</span>
 					</li>
 				</ul>
 			</section>
@@ -79,14 +79,15 @@
 						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="fetchorderrequest.html#columns" class="tsd-kind-icon">columns</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="fetchorderrequest.html#count" class="tsd-kind-icon">count</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="fetchorderrequest.html#endtime" class="tsd-kind-icon">end<wbr>Time</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="fetchorderrequest.html#filter" class="tsd-kind-icon">filter</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="fetchorderrequest.html#reverse" class="tsd-kind-icon">reverse</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="fetchorderrequest.html#start" class="tsd-kind-icon">start</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="fetchorderrequest.html#starttime" class="tsd-kind-icon">start<wbr>Time</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="fetchorderrequest.html#symbol" class="tsd-kind-icon">symbol</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="settlementsource.html#bankrupt" class="tsd-kind-icon">bankrupt</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="settlementsource.html#optionstrikeprice" class="tsd-kind-icon">option<wbr>Strike<wbr>Price</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="settlementsource.html#optionunderlyingprice" class="tsd-kind-icon">option<wbr>Underlying<wbr>Price</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="settlementsource.html#settledprice" class="tsd-kind-icon">settled<wbr>Price</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="settlementsource.html#settlementtype" class="tsd-kind-icon">settlement<wbr>Type</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="settlementsource.html#symbol" class="tsd-kind-icon">symbol</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="settlementsource.html#taxbase" class="tsd-kind-icon">tax<wbr>Base</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="settlementsource.html#taxrate" class="tsd-kind-icon">tax<wbr>Rate</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="settlementsource.html#timestamp" class="tsd-kind-icon">timestamp</a></li>
 							</ul>
 						</section>
 					</div>
@@ -95,80 +96,52 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Properties</h2>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="columns" class="tsd-anchor"></a>
-					<h3>columns</h3>
-					<div class="tsd-signature tsd-kind-icon">columns<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></div>
+					<a name="bankrupt" class="tsd-anchor"></a>
+					<h3>bankrupt</h3>
+					<div class="tsd-signature tsd-kind-icon">bankrupt<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/types/request.ts#L27">modules/exchanges/crypto/bitmex/types/request.ts:27</a></li>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/websocket/settlement/types.ts#L21">modules/exchanges/crypto/bitmex/websocket/settlement/types.ts:21</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="count" class="tsd-anchor"></a>
-					<h3>count</h3>
-					<div class="tsd-signature tsd-kind-icon">count<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<a name="optionstrikeprice" class="tsd-anchor"></a>
+					<h3>option<wbr>Strike<wbr>Price</h3>
+					<div class="tsd-signature tsd-kind-icon">option<wbr>Strike<wbr>Price<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/types/request.ts#L28">modules/exchanges/crypto/bitmex/types/request.ts:28</a></li>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/websocket/settlement/types.ts#L19">modules/exchanges/crypto/bitmex/websocket/settlement/types.ts:19</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="endtime" class="tsd-anchor"></a>
-					<h3>end<wbr>Time</h3>
-					<div class="tsd-signature tsd-kind-icon">end<wbr>Time<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<a name="optionunderlyingprice" class="tsd-anchor"></a>
+					<h3>option<wbr>Underlying<wbr>Price</h3>
+					<div class="tsd-signature tsd-kind-icon">option<wbr>Underlying<wbr>Price<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/types/request.ts#L32">modules/exchanges/crypto/bitmex/types/request.ts:32</a></li>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/websocket/settlement/types.ts#L20">modules/exchanges/crypto/bitmex/websocket/settlement/types.ts:20</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="filter" class="tsd-anchor"></a>
-					<h3>filter</h3>
-					<div class="tsd-signature tsd-kind-icon">filter<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<a name="settledprice" class="tsd-anchor"></a>
+					<h3>settled<wbr>Price</h3>
+					<div class="tsd-signature tsd-kind-icon">settled<wbr>Price<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/types/request.ts#L26">modules/exchanges/crypto/bitmex/types/request.ts:26</a></li>
-						</ul>
-					</aside>
-					<div class="tsd-type-declaration">
-						<h4>Type declaration</h4>
-						<ul class="tsd-parameters">
-							<li class="tsd-parameter-index-signature">
-								<h5><span class="tsd-signature-symbol">[</span>filterKey: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">]: </span><span class="tsd-signature-type">string</span></h5>
-							</li>
-						</ul>
-					</div>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="reverse" class="tsd-anchor"></a>
-					<h3>reverse</h3>
-					<div class="tsd-signature tsd-kind-icon">reverse<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/types/request.ts#L30">modules/exchanges/crypto/bitmex/types/request.ts:30</a></li>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/websocket/settlement/types.ts#L18">modules/exchanges/crypto/bitmex/websocket/settlement/types.ts:18</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="start" class="tsd-anchor"></a>
-					<h3>start</h3>
-					<div class="tsd-signature tsd-kind-icon">start<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<a name="settlementtype" class="tsd-anchor"></a>
+					<h3>settlement<wbr>Type</h3>
+					<div class="tsd-signature tsd-kind-icon">settlement<wbr>Type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/types/request.ts#L29">modules/exchanges/crypto/bitmex/types/request.ts:29</a></li>
-						</ul>
-					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="starttime" class="tsd-anchor"></a>
-					<h3>start<wbr>Time</h3>
-					<div class="tsd-signature tsd-kind-icon">start<wbr>Time<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/types/request.ts#L31">modules/exchanges/crypto/bitmex/types/request.ts:31</a></li>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/websocket/settlement/types.ts#L17">modules/exchanges/crypto/bitmex/websocket/settlement/types.ts:17</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -178,7 +151,37 @@
 					<div class="tsd-signature tsd-kind-icon">symbol<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/types/request.ts#L25">modules/exchanges/crypto/bitmex/types/request.ts:25</a></li>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/websocket/settlement/types.ts#L16">modules/exchanges/crypto/bitmex/websocket/settlement/types.ts:16</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="taxbase" class="tsd-anchor"></a>
+					<h3>tax<wbr>Base</h3>
+					<div class="tsd-signature tsd-kind-icon">tax<wbr>Base<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/websocket/settlement/types.ts#L22">modules/exchanges/crypto/bitmex/websocket/settlement/types.ts:22</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="taxrate" class="tsd-anchor"></a>
+					<h3>tax<wbr>Rate</h3>
+					<div class="tsd-signature tsd-kind-icon">tax<wbr>Rate<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/websocket/settlement/types.ts#L23">modules/exchanges/crypto/bitmex/websocket/settlement/types.ts:23</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="timestamp" class="tsd-anchor"></a>
+					<h3>timestamp</h3>
+					<div class="tsd-signature tsd-kind-icon">timestamp<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/dd232da/modules/exchanges/crypto/bitmex/websocket/settlement/types.ts#L15">modules/exchanges/crypto/bitmex/websocket/settlement/types.ts:15</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -197,31 +200,34 @@
 				</ul>
 				<ul class="current">
 					<li class="current tsd-kind-interface">
-						<a href="fetchorderrequest.html" class="tsd-kind-icon">Fetch<wbr>Order<wbr>Request</a>
+						<a href="settlementsource.html" class="tsd-kind-icon">Settlement<wbr>Source</a>
 						<ul>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="fetchorderrequest.html#columns" class="tsd-kind-icon">columns</a>
+								<a href="settlementsource.html#bankrupt" class="tsd-kind-icon">bankrupt</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="fetchorderrequest.html#count" class="tsd-kind-icon">count</a>
+								<a href="settlementsource.html#optionstrikeprice" class="tsd-kind-icon">option<wbr>Strike<wbr>Price</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="fetchorderrequest.html#endtime" class="tsd-kind-icon">end<wbr>Time</a>
+								<a href="settlementsource.html#optionunderlyingprice" class="tsd-kind-icon">option<wbr>Underlying<wbr>Price</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="fetchorderrequest.html#filter" class="tsd-kind-icon">filter</a>
+								<a href="settlementsource.html#settledprice" class="tsd-kind-icon">settled<wbr>Price</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="fetchorderrequest.html#reverse" class="tsd-kind-icon">reverse</a>
+								<a href="settlementsource.html#settlementtype" class="tsd-kind-icon">settlement<wbr>Type</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="fetchorderrequest.html#start" class="tsd-kind-icon">start</a>
+								<a href="settlementsource.html#symbol" class="tsd-kind-icon">symbol</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="fetchorderrequest.html#starttime" class="tsd-kind-icon">start<wbr>Time</a>
+								<a href="settlementsource.html#taxbase" class="tsd-kind-icon">tax<wbr>Base</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="fetchorderrequest.html#symbol" class="tsd-kind-icon">symbol</a>
+								<a href="settlementsource.html#taxrate" class="tsd-kind-icon">tax<wbr>Rate</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="settlementsource.html#timestamp" class="tsd-kind-icon">timestamp</a>
 							</li>
 						</ul>
 					</li>
