@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Ticker | dripjs</title>
+	<title>ExecInst | dripjs</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -54,122 +54,101 @@
 					<a href="../globals.html">Globals</a>
 				</li>
 				<li>
-					<a href="ticker.html">Ticker</a>
+					<a href="execinst.html">ExecInst</a>
 				</li>
 			</ul>
-			<h1>Interface Ticker</h1>
+			<h1>Enumeration ExecInst</h1>
 		</div>
 	</div>
 </header>
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
-			<section class="tsd-panel tsd-hierarchy">
-				<h3>Hierarchy</h3>
-				<ul class="tsd-hierarchy">
-					<li>
-						<span class="target">Ticker</span>
-					</li>
-				</ul>
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Execution Instructions
+						If using multiple, separate with a comma (e.g. LastPrice,Close).</p>
+					</div>
+				</div>
 			</section>
 			<section class="tsd-panel-group tsd-index-group">
 				<h2>Index</h2>
 				<section class="tsd-panel tsd-index-panel">
 					<div class="tsd-index-content">
 						<section class="tsd-index-section ">
-							<h3>Properties</h3>
+							<h3>Enumeration members</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="ticker.html#ask" class="tsd-kind-icon">ask</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="ticker.html#bid" class="tsd-kind-icon">bid</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="ticker.html#high" class="tsd-kind-icon">high</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="ticker.html#last" class="tsd-kind-icon">last</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="ticker.html#low" class="tsd-kind-icon">low</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="ticker.html#time" class="tsd-kind-icon">time</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="ticker.html#volume" class="tsd-kind-icon">volume</a></li>
+								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="execinst.html#close" class="tsd-kind-icon">Close</a></li>
+								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="execinst.html#indexprice" class="tsd-kind-icon">Index<wbr>Price</a></li>
+								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="execinst.html#lastprice" class="tsd-kind-icon">Last<wbr>Price</a></li>
+								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="execinst.html#markprice" class="tsd-kind-icon">Mark<wbr>Price</a></li>
+								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="execinst.html#participatedonotinitiate" class="tsd-kind-icon">Participate<wbr>DoNot<wbr>Initiate</a></li>
+								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="execinst.html#reduceonly" class="tsd-kind-icon">Reduce<wbr>Only</a></li>
 							</ul>
 						</section>
 					</div>
 				</section>
 			</section>
 			<section class="tsd-panel-group tsd-member-group ">
-				<h2>Properties</h2>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="ask" class="tsd-anchor"></a>
-					<h3>ask</h3>
-					<div class="tsd-signature tsd-kind-icon">ask<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+				<h2>Enumeration members</h2>
+				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+					<a name="close" class="tsd-anchor"></a>
+					<h3>Close</h3>
+					<div class="tsd-signature tsd-kind-icon">Close<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> =&nbsp;&quot;Close&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/types/intelligence.ts#L4">modules/types/intelligence.ts:4</a></li>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/exchanges/crypto/bitmex/types/order.ts#L47">modules/exchanges/crypto/bitmex/types/order.ts:47</a></li>
 						</ul>
 					</aside>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="bid" class="tsd-anchor"></a>
-					<h3>bid</h3>
-					<div class="tsd-signature tsd-kind-icon">bid<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+					<a name="indexprice" class="tsd-anchor"></a>
+					<h3>Index<wbr>Price</h3>
+					<div class="tsd-signature tsd-kind-icon">Index<wbr>Price<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> =&nbsp;&quot;IndexPrice&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/types/intelligence.ts#L5">modules/types/intelligence.ts:5</a></li>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/exchanges/crypto/bitmex/types/order.ts#L45">modules/exchanges/crypto/bitmex/types/order.ts:45</a></li>
 						</ul>
 					</aside>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="high" class="tsd-anchor"></a>
-					<h3>high</h3>
-					<div class="tsd-signature tsd-kind-icon">high<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+					<a name="lastprice" class="tsd-anchor"></a>
+					<h3>Last<wbr>Price</h3>
+					<div class="tsd-signature tsd-kind-icon">Last<wbr>Price<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> =&nbsp;&quot;LastPrice&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/types/intelligence.ts#L9">modules/types/intelligence.ts:9</a></li>
-						</ul>
-					</aside>
-					<div class="tsd-comment tsd-typography">
-						<div class="lead">
-							<p>0 is not supported by the exchange</p>
-						</div>
-					</div>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="last" class="tsd-anchor"></a>
-					<h3>last</h3>
-					<div class="tsd-signature tsd-kind-icon">last<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/types/intelligence.ts#L14">modules/types/intelligence.ts:14</a></li>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/exchanges/crypto/bitmex/types/order.ts#L44">modules/exchanges/crypto/bitmex/types/order.ts:44</a></li>
 						</ul>
 					</aside>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="low" class="tsd-anchor"></a>
-					<h3>low</h3>
-					<div class="tsd-signature tsd-kind-icon">low<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+					<a name="markprice" class="tsd-anchor"></a>
+					<h3>Mark<wbr>Price</h3>
+					<div class="tsd-signature tsd-kind-icon">Mark<wbr>Price<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> =&nbsp;&quot;MarkPrice&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/types/intelligence.ts#L13">modules/types/intelligence.ts:13</a></li>
-						</ul>
-					</aside>
-					<div class="tsd-comment tsd-typography">
-						<div class="lead">
-							<p>0 is not supported by the exchange</p>
-						</div>
-					</div>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="time" class="tsd-anchor"></a>
-					<h3>time</h3>
-					<div class="tsd-signature tsd-kind-icon">time<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/types/intelligence.ts#L16">modules/types/intelligence.ts:16</a></li>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/exchanges/crypto/bitmex/types/order.ts#L43">modules/exchanges/crypto/bitmex/types/order.ts:43</a></li>
 						</ul>
 					</aside>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="volume" class="tsd-anchor"></a>
-					<h3>volume</h3>
-					<div class="tsd-signature tsd-kind-icon">volume<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+					<a name="participatedonotinitiate" class="tsd-anchor"></a>
+					<h3>Participate<wbr>DoNot<wbr>Initiate</h3>
+					<div class="tsd-signature tsd-kind-icon">Participate<wbr>DoNot<wbr>Initiate<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> =&nbsp;&quot;ParticipateDoNotInitiate&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/types/intelligence.ts#L15">modules/types/intelligence.ts:15</a></li>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/exchanges/crypto/bitmex/types/order.ts#L42">modules/exchanges/crypto/bitmex/types/order.ts:42</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+					<a name="reduceonly" class="tsd-anchor"></a>
+					<h3>Reduce<wbr>Only</h3>
+					<div class="tsd-signature tsd-kind-icon">Reduce<wbr>Only<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> =&nbsp;&quot;ReduceOnly&quot;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/exchanges/crypto/bitmex/types/order.ts#L46">modules/exchanges/crypto/bitmex/types/order.ts:46</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -187,29 +166,26 @@
 				<ul class="before-current">
 				</ul>
 				<ul class="current">
-					<li class="current tsd-kind-interface">
-						<a href="ticker.html" class="tsd-kind-icon">Ticker</a>
+					<li class="current tsd-kind-enum">
+						<a href="execinst.html" class="tsd-kind-icon">Exec<wbr>Inst</a>
 						<ul>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="ticker.html#ask" class="tsd-kind-icon">ask</a>
+							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+								<a href="execinst.html#close" class="tsd-kind-icon">Close</a>
 							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="ticker.html#bid" class="tsd-kind-icon">bid</a>
+							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+								<a href="execinst.html#indexprice" class="tsd-kind-icon">Index<wbr>Price</a>
 							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="ticker.html#high" class="tsd-kind-icon">high</a>
+							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+								<a href="execinst.html#lastprice" class="tsd-kind-icon">Last<wbr>Price</a>
 							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="ticker.html#last" class="tsd-kind-icon">last</a>
+							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+								<a href="execinst.html#markprice" class="tsd-kind-icon">Mark<wbr>Price</a>
 							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="ticker.html#low" class="tsd-kind-icon">low</a>
+							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+								<a href="execinst.html#participatedonotinitiate" class="tsd-kind-icon">Participate<wbr>DoNot<wbr>Initiate</a>
 							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="ticker.html#time" class="tsd-kind-icon">time</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="ticker.html#volume" class="tsd-kind-icon">volume</a>
+							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+								<a href="execinst.html#reduceonly" class="tsd-kind-icon">Reduce<wbr>Only</a>
 							</li>
 						</ul>
 					</li>

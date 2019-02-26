@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Ticker | dripjs</title>
+	<title>BarResponse | dripjs</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -54,10 +54,10 @@
 					<a href="../globals.html">Globals</a>
 				</li>
 				<li>
-					<a href="ticker.html">Ticker</a>
+					<a href="barresponse.html">BarResponse</a>
 				</li>
 			</ul>
-			<h1>Interface Ticker</h1>
+			<h1>Interface BarResponse</h1>
 		</div>
 	</div>
 </header>
@@ -68,7 +68,7 @@
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
 					<li>
-						<span class="target">Ticker</span>
+						<span class="target">BarResponse</span>
 					</li>
 				</ul>
 			</section>
@@ -79,13 +79,19 @@
 						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="ticker.html#ask" class="tsd-kind-icon">ask</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="ticker.html#bid" class="tsd-kind-icon">bid</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="ticker.html#high" class="tsd-kind-icon">high</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="ticker.html#last" class="tsd-kind-icon">last</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="ticker.html#low" class="tsd-kind-icon">low</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="ticker.html#time" class="tsd-kind-icon">time</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="ticker.html#volume" class="tsd-kind-icon">volume</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="barresponse.html#close" class="tsd-kind-icon">close</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="barresponse.html#foreignnotional" class="tsd-kind-icon">foreign<wbr>Notional</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="barresponse.html#high" class="tsd-kind-icon">high</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="barresponse.html#homenotional" class="tsd-kind-icon">home<wbr>Notional</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="barresponse.html#lastsize" class="tsd-kind-icon">last<wbr>Size</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="barresponse.html#low" class="tsd-kind-icon">low</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="barresponse.html#open" class="tsd-kind-icon">open</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="barresponse.html#symbol" class="tsd-kind-icon">symbol</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="barresponse.html#timestamp" class="tsd-kind-icon">timestamp</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="barresponse.html#trades" class="tsd-kind-icon">trades</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="barresponse.html#turnover" class="tsd-kind-icon">turnover</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="barresponse.html#volume" class="tsd-kind-icon">volume</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="barresponse.html#vwap" class="tsd-kind-icon">vwap</a></li>
 							</ul>
 						</section>
 					</div>
@@ -94,22 +100,22 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Properties</h2>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="ask" class="tsd-anchor"></a>
-					<h3>ask</h3>
-					<div class="tsd-signature tsd-kind-icon">ask<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<a name="close" class="tsd-anchor"></a>
+					<h3>close</h3>
+					<div class="tsd-signature tsd-kind-icon">close<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/types/intelligence.ts#L4">modules/types/intelligence.ts:4</a></li>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/exchanges/crypto/bitmex/types/response.ts#L117">modules/exchanges/crypto/bitmex/types/response.ts:117</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="bid" class="tsd-anchor"></a>
-					<h3>bid</h3>
-					<div class="tsd-signature tsd-kind-icon">bid<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<a name="foreignnotional" class="tsd-anchor"></a>
+					<h3>foreign<wbr>Notional</h3>
+					<div class="tsd-signature tsd-kind-icon">foreign<wbr>Notional<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/types/intelligence.ts#L5">modules/types/intelligence.ts:5</a></li>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/exchanges/crypto/bitmex/types/response.ts#L124">modules/exchanges/crypto/bitmex/types/response.ts:124</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -119,22 +125,27 @@
 					<div class="tsd-signature tsd-kind-icon">high<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/types/intelligence.ts#L9">modules/types/intelligence.ts:9</a></li>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/exchanges/crypto/bitmex/types/response.ts#L115">modules/exchanges/crypto/bitmex/types/response.ts:115</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<div class="lead">
-							<p>0 is not supported by the exchange</p>
-						</div>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="last" class="tsd-anchor"></a>
-					<h3>last</h3>
-					<div class="tsd-signature tsd-kind-icon">last<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<a name="homenotional" class="tsd-anchor"></a>
+					<h3>home<wbr>Notional</h3>
+					<div class="tsd-signature tsd-kind-icon">home<wbr>Notional<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/types/intelligence.ts#L14">modules/types/intelligence.ts:14</a></li>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/exchanges/crypto/bitmex/types/response.ts#L123">modules/exchanges/crypto/bitmex/types/response.ts:123</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="lastsize" class="tsd-anchor"></a>
+					<h3>last<wbr>Size</h3>
+					<div class="tsd-signature tsd-kind-icon">last<wbr>Size<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/exchanges/crypto/bitmex/types/response.ts#L121">modules/exchanges/crypto/bitmex/types/response.ts:121</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -144,22 +155,57 @@
 					<div class="tsd-signature tsd-kind-icon">low<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/types/intelligence.ts#L13">modules/types/intelligence.ts:13</a></li>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/exchanges/crypto/bitmex/types/response.ts#L116">modules/exchanges/crypto/bitmex/types/response.ts:116</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<div class="lead">
-							<p>0 is not supported by the exchange</p>
-						</div>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="time" class="tsd-anchor"></a>
-					<h3>time</h3>
-					<div class="tsd-signature tsd-kind-icon">time<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<a name="open" class="tsd-anchor"></a>
+					<h3>open</h3>
+					<div class="tsd-signature tsd-kind-icon">open<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/types/intelligence.ts#L16">modules/types/intelligence.ts:16</a></li>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/exchanges/crypto/bitmex/types/response.ts#L114">modules/exchanges/crypto/bitmex/types/response.ts:114</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="symbol" class="tsd-anchor"></a>
+					<h3>symbol</h3>
+					<div class="tsd-signature tsd-kind-icon">symbol<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/exchanges/crypto/bitmex/types/response.ts#L113">modules/exchanges/crypto/bitmex/types/response.ts:113</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="timestamp" class="tsd-anchor"></a>
+					<h3>timestamp</h3>
+					<div class="tsd-signature tsd-kind-icon">timestamp<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/exchanges/crypto/bitmex/types/response.ts#L112">modules/exchanges/crypto/bitmex/types/response.ts:112</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="trades" class="tsd-anchor"></a>
+					<h3>trades</h3>
+					<div class="tsd-signature tsd-kind-icon">trades<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/exchanges/crypto/bitmex/types/response.ts#L118">modules/exchanges/crypto/bitmex/types/response.ts:118</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="turnover" class="tsd-anchor"></a>
+					<h3>turnover</h3>
+					<div class="tsd-signature tsd-kind-icon">turnover<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/exchanges/crypto/bitmex/types/response.ts#L122">modules/exchanges/crypto/bitmex/types/response.ts:122</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -169,7 +215,17 @@
 					<div class="tsd-signature tsd-kind-icon">volume<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/types/intelligence.ts#L15">modules/types/intelligence.ts:15</a></li>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/exchanges/crypto/bitmex/types/response.ts#L119">modules/exchanges/crypto/bitmex/types/response.ts:119</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="vwap" class="tsd-anchor"></a>
+					<h3>vwap</h3>
+					<div class="tsd-signature tsd-kind-icon">vwap<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/exchanges/crypto/bitmex/types/response.ts#L120">modules/exchanges/crypto/bitmex/types/response.ts:120</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -188,28 +244,46 @@
 				</ul>
 				<ul class="current">
 					<li class="current tsd-kind-interface">
-						<a href="ticker.html" class="tsd-kind-icon">Ticker</a>
+						<a href="barresponse.html" class="tsd-kind-icon">Bar<wbr>Response</a>
 						<ul>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="ticker.html#ask" class="tsd-kind-icon">ask</a>
+								<a href="barresponse.html#close" class="tsd-kind-icon">close</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="ticker.html#bid" class="tsd-kind-icon">bid</a>
+								<a href="barresponse.html#foreignnotional" class="tsd-kind-icon">foreign<wbr>Notional</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="ticker.html#high" class="tsd-kind-icon">high</a>
+								<a href="barresponse.html#high" class="tsd-kind-icon">high</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="ticker.html#last" class="tsd-kind-icon">last</a>
+								<a href="barresponse.html#homenotional" class="tsd-kind-icon">home<wbr>Notional</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="ticker.html#low" class="tsd-kind-icon">low</a>
+								<a href="barresponse.html#lastsize" class="tsd-kind-icon">last<wbr>Size</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="ticker.html#time" class="tsd-kind-icon">time</a>
+								<a href="barresponse.html#low" class="tsd-kind-icon">low</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="ticker.html#volume" class="tsd-kind-icon">volume</a>
+								<a href="barresponse.html#open" class="tsd-kind-icon">open</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="barresponse.html#symbol" class="tsd-kind-icon">symbol</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="barresponse.html#timestamp" class="tsd-kind-icon">timestamp</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="barresponse.html#trades" class="tsd-kind-icon">trades</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="barresponse.html#turnover" class="tsd-kind-icon">turnover</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="barresponse.html#volume" class="tsd-kind-icon">volume</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="barresponse.html#vwap" class="tsd-kind-icon">vwap</a>
 							</li>
 						</ul>
 					</li>

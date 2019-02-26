@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Ticker | dripjs</title>
+	<title>SettlementResponse | dripjs</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -54,10 +54,10 @@
 					<a href="../globals.html">Globals</a>
 				</li>
 				<li>
-					<a href="ticker.html">Ticker</a>
+					<a href="settlementresponse.html">SettlementResponse</a>
 				</li>
 			</ul>
-			<h1>Interface Ticker</h1>
+			<h1>Interface SettlementResponse</h1>
 		</div>
 	</div>
 </header>
@@ -68,7 +68,7 @@
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
 					<li>
-						<span class="target">Ticker</span>
+						<span class="target">SettlementResponse</span>
 					</li>
 				</ul>
 			</section>
@@ -79,13 +79,15 @@
 						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="ticker.html#ask" class="tsd-kind-icon">ask</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="ticker.html#bid" class="tsd-kind-icon">bid</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="ticker.html#high" class="tsd-kind-icon">high</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="ticker.html#last" class="tsd-kind-icon">last</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="ticker.html#low" class="tsd-kind-icon">low</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="ticker.html#time" class="tsd-kind-icon">time</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="ticker.html#volume" class="tsd-kind-icon">volume</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="settlementresponse.html#bankrupt" class="tsd-kind-icon">bankrupt</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="settlementresponse.html#optionstrikeprice" class="tsd-kind-icon">option<wbr>Strike<wbr>Price</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="settlementresponse.html#optionunderlyingprice" class="tsd-kind-icon">option<wbr>Underlying<wbr>Price</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="settlementresponse.html#settledprice" class="tsd-kind-icon">settled<wbr>Price</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="settlementresponse.html#settlementtype" class="tsd-kind-icon">settlement<wbr>Type</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="settlementresponse.html#symbol" class="tsd-kind-icon">symbol</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="settlementresponse.html#taxbase" class="tsd-kind-icon">tax<wbr>Base</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="settlementresponse.html#taxrate" class="tsd-kind-icon">tax<wbr>Rate</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="settlementresponse.html#timestamp" class="tsd-kind-icon">timestamp</a></li>
 							</ul>
 						</section>
 					</div>
@@ -94,82 +96,92 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Properties</h2>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="ask" class="tsd-anchor"></a>
-					<h3>ask</h3>
-					<div class="tsd-signature tsd-kind-icon">ask<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<a name="bankrupt" class="tsd-anchor"></a>
+					<h3>bankrupt</h3>
+					<div class="tsd-signature tsd-kind-icon">bankrupt<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/types/intelligence.ts#L4">modules/types/intelligence.ts:4</a></li>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/exchanges/crypto/bitmex/types/response.ts#L35">modules/exchanges/crypto/bitmex/types/response.ts:35</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="bid" class="tsd-anchor"></a>
-					<h3>bid</h3>
-					<div class="tsd-signature tsd-kind-icon">bid<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<a name="optionstrikeprice" class="tsd-anchor"></a>
+					<h3>option<wbr>Strike<wbr>Price</h3>
+					<div class="tsd-signature tsd-kind-icon">option<wbr>Strike<wbr>Price<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/types/intelligence.ts#L5">modules/types/intelligence.ts:5</a></li>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/exchanges/crypto/bitmex/types/response.ts#L33">modules/exchanges/crypto/bitmex/types/response.ts:33</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="high" class="tsd-anchor"></a>
-					<h3>high</h3>
-					<div class="tsd-signature tsd-kind-icon">high<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<a name="optionunderlyingprice" class="tsd-anchor"></a>
+					<h3>option<wbr>Underlying<wbr>Price</h3>
+					<div class="tsd-signature tsd-kind-icon">option<wbr>Underlying<wbr>Price<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/types/intelligence.ts#L9">modules/types/intelligence.ts:9</a></li>
-						</ul>
-					</aside>
-					<div class="tsd-comment tsd-typography">
-						<div class="lead">
-							<p>0 is not supported by the exchange</p>
-						</div>
-					</div>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="last" class="tsd-anchor"></a>
-					<h3>last</h3>
-					<div class="tsd-signature tsd-kind-icon">last<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/types/intelligence.ts#L14">modules/types/intelligence.ts:14</a></li>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/exchanges/crypto/bitmex/types/response.ts#L34">modules/exchanges/crypto/bitmex/types/response.ts:34</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="low" class="tsd-anchor"></a>
-					<h3>low</h3>
-					<div class="tsd-signature tsd-kind-icon">low<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<a name="settledprice" class="tsd-anchor"></a>
+					<h3>settled<wbr>Price</h3>
+					<div class="tsd-signature tsd-kind-icon">settled<wbr>Price<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/types/intelligence.ts#L13">modules/types/intelligence.ts:13</a></li>
-						</ul>
-					</aside>
-					<div class="tsd-comment tsd-typography">
-						<div class="lead">
-							<p>0 is not supported by the exchange</p>
-						</div>
-					</div>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="time" class="tsd-anchor"></a>
-					<h3>time</h3>
-					<div class="tsd-signature tsd-kind-icon">time<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/types/intelligence.ts#L16">modules/types/intelligence.ts:16</a></li>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/exchanges/crypto/bitmex/types/response.ts#L32">modules/exchanges/crypto/bitmex/types/response.ts:32</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="volume" class="tsd-anchor"></a>
-					<h3>volume</h3>
-					<div class="tsd-signature tsd-kind-icon">volume<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<a name="settlementtype" class="tsd-anchor"></a>
+					<h3>settlement<wbr>Type</h3>
+					<div class="tsd-signature tsd-kind-icon">settlement<wbr>Type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/types/intelligence.ts#L15">modules/types/intelligence.ts:15</a></li>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/exchanges/crypto/bitmex/types/response.ts#L31">modules/exchanges/crypto/bitmex/types/response.ts:31</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="symbol" class="tsd-anchor"></a>
+					<h3>symbol</h3>
+					<div class="tsd-signature tsd-kind-icon">symbol<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/exchanges/crypto/bitmex/types/response.ts#L30">modules/exchanges/crypto/bitmex/types/response.ts:30</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="taxbase" class="tsd-anchor"></a>
+					<h3>tax<wbr>Base</h3>
+					<div class="tsd-signature tsd-kind-icon">tax<wbr>Base<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/exchanges/crypto/bitmex/types/response.ts#L36">modules/exchanges/crypto/bitmex/types/response.ts:36</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="taxrate" class="tsd-anchor"></a>
+					<h3>tax<wbr>Rate</h3>
+					<div class="tsd-signature tsd-kind-icon">tax<wbr>Rate<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/exchanges/crypto/bitmex/types/response.ts#L37">modules/exchanges/crypto/bitmex/types/response.ts:37</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="timestamp" class="tsd-anchor"></a>
+					<h3>timestamp</h3>
+					<div class="tsd-signature tsd-kind-icon">timestamp<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/zlq4863947/dripjs/blob/3e1ad34/modules/exchanges/crypto/bitmex/types/response.ts#L29">modules/exchanges/crypto/bitmex/types/response.ts:29</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -188,28 +200,34 @@
 				</ul>
 				<ul class="current">
 					<li class="current tsd-kind-interface">
-						<a href="ticker.html" class="tsd-kind-icon">Ticker</a>
+						<a href="settlementresponse.html" class="tsd-kind-icon">Settlement<wbr>Response</a>
 						<ul>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="ticker.html#ask" class="tsd-kind-icon">ask</a>
+								<a href="settlementresponse.html#bankrupt" class="tsd-kind-icon">bankrupt</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="ticker.html#bid" class="tsd-kind-icon">bid</a>
+								<a href="settlementresponse.html#optionstrikeprice" class="tsd-kind-icon">option<wbr>Strike<wbr>Price</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="ticker.html#high" class="tsd-kind-icon">high</a>
+								<a href="settlementresponse.html#optionunderlyingprice" class="tsd-kind-icon">option<wbr>Underlying<wbr>Price</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="ticker.html#last" class="tsd-kind-icon">last</a>
+								<a href="settlementresponse.html#settledprice" class="tsd-kind-icon">settled<wbr>Price</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="ticker.html#low" class="tsd-kind-icon">low</a>
+								<a href="settlementresponse.html#settlementtype" class="tsd-kind-icon">settlement<wbr>Type</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="ticker.html#time" class="tsd-kind-icon">time</a>
+								<a href="settlementresponse.html#symbol" class="tsd-kind-icon">symbol</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="ticker.html#volume" class="tsd-kind-icon">volume</a>
+								<a href="settlementresponse.html#taxbase" class="tsd-kind-icon">tax<wbr>Base</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="settlementresponse.html#taxrate" class="tsd-kind-icon">tax<wbr>Rate</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="settlementresponse.html#timestamp" class="tsd-kind-icon">timestamp</a>
 							</li>
 						</ul>
 					</li>
