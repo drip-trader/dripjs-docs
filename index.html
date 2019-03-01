@@ -83,6 +83,8 @@
 				<h2 id="-">设计哲学</h2>
 				<p>让量化开发者将大部分精力、时间花费在核心:交易策略的开发上。
 				<strong>Drip.js</strong>提供除此之外的一切，使得开发者不必再为重复造轮子而苦恼</p>
+				<h2 id="-">简书专题文章</h2>
+				<p><a href="https://www.jianshu.com/c/520f18fa56cb">https://www.jianshu.com/c/520f18fa56cb</a></p>
 				<h2 id="-">安装</h2>
 				<p>由于此框架全部模块化，可以使用下面命令安装到您的程序中</p>
 				<pre><code class="language-shell">npm install dripjs</code></pre>
@@ -90,10 +92,10 @@
 				<pre><code class="language-shell">// 假设想要使用bitmex api模块时
 npm install dripjs-bitmex</code></pre>
 				<h2 id="-">使用</h2>
-				<pre><code class="language-typescript"><span class="hljs-keyword">import</span> { IntelligenceFactory } <span class="hljs-keyword">from</span> <span class="hljs-string">'dripjs'</span>;
+				<pre><code class="language-typescript"><span class="hljs-keyword">import</span> { IntelFactory, BitmexSpy } <span class="hljs-keyword">from</span> <span class="hljs-string">'dripjs'</span>;
 
 <span class="hljs-keyword">const</span> pair = <span class="hljs-string">'XBTUSD'</span>;
-<span class="hljs-keyword">const</span> bitmex = IntelligenceFactory.create(Bitmex, {
+<span class="hljs-keyword">const</span> bitmex = IntelFactory.create(BitmexSpy, {
   apiKey: <span class="hljs-string">`xx`</span>,
   apiSecret: <span class="hljs-string">`zz`</span>,
   testnet: <span class="hljs-literal">false</span>,
@@ -197,10 +199,10 @@ setTimeout(<span class="hljs-function"><span class="hljs-params">()</span> =&gt;
 						<a href="classes/bitmexws.html" class="tsd-kind-icon">BitmexWS</a>
 					</li>
 					<li class=" tsd-kind-class">
-						<a href="classes/intelligence.html" class="tsd-kind-icon">Intelligence</a>
+						<a href="classes/intel.html" class="tsd-kind-icon">Intel</a>
 					</li>
 					<li class=" tsd-kind-class">
-						<a href="classes/intelligencefactory.html" class="tsd-kind-icon">Intelligence<wbr>Factory</a>
+						<a href="classes/intelfactory.html" class="tsd-kind-icon">Intel<wbr>Factory</a>
 					</li>
 					<li class=" tsd-kind-interface">
 						<a href="interfaces/asset.html" class="tsd-kind-icon">Asset</a>
